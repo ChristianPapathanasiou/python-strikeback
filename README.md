@@ -19,7 +19,6 @@ auth       required     pam_python.so striker.py
 
 `
 UsePAM yes
-
 `
 
 
