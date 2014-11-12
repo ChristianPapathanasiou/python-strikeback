@@ -11,23 +11,15 @@
 3. Configure PAM for SSHD to use the module
 
 /etc/pam.d/sshd
-
 `
-...
-
 auth       required     pam_python.so striker.py
-
-...
 `
 
 /etc/ssh/sshd_config
 
 `
-...
-
 UsePAM yes
 
-...
 `
 
 
