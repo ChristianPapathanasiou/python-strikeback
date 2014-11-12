@@ -4,7 +4,7 @@
 1. Ensure you have the following packages on Debian/Ubuntu:
 	* python-pam 
 	* libpam-python
-	* python-libssh2`
+	* python-libssh2
 
 2. Put the module in `/lib/security/striker.py`
 
@@ -14,7 +14,9 @@
 
 `
 ...
+
 auth       required     pam_python.so striker.py
+
 ...
 `
 
@@ -22,7 +24,9 @@ auth       required     pam_python.so striker.py
 
 `
 ...
+
 UsePAM yes
+
 ...
 `
 
